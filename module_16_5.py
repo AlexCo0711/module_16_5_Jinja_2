@@ -9,7 +9,7 @@ from typing import Annotated, List
 # Создано приложение(объект) FastAPI
 app = FastAPI()
 
-# Шаблоны main.html, users.html в папке templates в проекте
+# Шаблоны main.html, users.html в папке Templates_lesson в проекте
 # объект Jinja2Templates, в качестве папки шаблонов - Templates_lesson
 templates = Jinja2Templates(directory='Templates_lesson')
 
